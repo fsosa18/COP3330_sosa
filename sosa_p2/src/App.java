@@ -41,8 +41,8 @@ public class App
 	public static double getUserWeight()
 	{
 		//Asks user for initial weight value
-		Scanner scan = new Scanner(System.in)
-;		System.out.println("Please enter your weight in pounds.");
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter your weight in pounds.");
 		double weight = -1;
 
 		// Loops until weight value is valid and returns it
